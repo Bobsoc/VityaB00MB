@@ -216,4 +216,4 @@ def qw(_phone):
             iteration += 1
             print(('{} круг пройден.').format(iteration))
         except:
-       break
+    break
