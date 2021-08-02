@@ -211,3 +211,9 @@ def qw(_phone):
             requests.post("https://api.ivi.ru/mobileapi/user/register/phone/v6",data={"phone": _phone})
         except:
             s=s
+            
+         try:
+            iteration += 1
+            print(('{} круг пройден.').format(iteration))
+         except:
+         break
