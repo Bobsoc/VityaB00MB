@@ -212,7 +212,7 @@ def qw(_phone):
         except:
             s=s
             
-         try:
+        try:
             iteration += 1
             print(('{} круг пройден.').format(iteration))
          except:
